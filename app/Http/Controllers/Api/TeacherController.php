@@ -79,7 +79,7 @@ class TeacherController extends Controller
         return response([
             'status' => 1,
             'class' => $classs,
-            'message' => 'Added Successfully',
+            'message' => 'Class Added Successfully , Thank you for sharing in building our community .',
         ], 200);
     }
     public function AddClasssData(Request $request)
