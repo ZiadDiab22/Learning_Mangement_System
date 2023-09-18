@@ -46,7 +46,7 @@ class StudentController extends Controller
         ]);
         if (!course::where('id', request()->course_id)->exists())
             return response([
-                'message' => "unfound course"
+                'message' => "Unfound Course"
             ], 200);
         $var1 = user_course::where('user_id', auth()->user()->id)->where('course_id', request()->course_id)->get();
         $var2 = user_course::find($var1[0]['id']);
