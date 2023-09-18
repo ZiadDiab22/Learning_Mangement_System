@@ -3,7 +3,6 @@
 namespace App\Http\Controllers\Api;
 
 use App\Models\classs;
-use App\Models\User;
 use App\Models\course;
 use App\Http\Controllers\Controller;
 use App\Models\question;

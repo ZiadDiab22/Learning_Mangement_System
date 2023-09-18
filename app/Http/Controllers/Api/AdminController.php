@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\course;
 use App\Models\User;
-use App\Models\objection;
 use App\Models\notification;
 use App\Models\suggestion;
 use App\Models\kind;
