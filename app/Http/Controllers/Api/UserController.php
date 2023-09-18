@@ -4,16 +4,13 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Models\User;
-use App\Models\Classs;
 use App\Models\course;
-use App\Models\kind;
 use App\Models\subject;
 use App\Models\comment;
 use App\Models\suggestion;
 use App\Models\objection;
 use App\Models\user_course;
 use Illuminate\Http\Request;
-use NunoMaduro\Collision\Adapters\Phpunit\Subscribers\Subscriber;
 
 class UserController extends Controller
 {
