@@ -147,7 +147,7 @@ class AdminController extends Controller
 
         return response([
             'status' => true,
-            'message' => 'Added Successfully',
+            'message' => 'Kind Added Successfully',
         ], 200);
     }
     public function ShowKinds(Request $request)

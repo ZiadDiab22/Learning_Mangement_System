@@ -76,7 +76,7 @@ class StudentController extends Controller
         }
         return response([
             'status' => true,
-            'message' => 'like added'
+            'message' => 'like added Successfully'
         ], 200);
     }
     public function dislike(Request $request)
@@ -116,7 +116,7 @@ class StudentController extends Controller
         }
         return response([
             'status' => true,
-            'message' => 'dislike added'
+            'message' => 'dislike added Successfully'
         ], 200);
     }
 

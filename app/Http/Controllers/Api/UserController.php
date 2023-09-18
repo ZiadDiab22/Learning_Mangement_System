@@ -223,7 +223,7 @@ class UserController extends Controller
         User::where('id', auth()->user()->id)->delete();
         return response([
             'status' => true,
-            'Results' => "Account Deleted successfully"
+            'Results' => "Account Deleted Successfully"
         ], 200);
     }
     public function showCourse(Request $request)
@@ -283,7 +283,7 @@ class UserController extends Controller
         $obj->save();
         return response([
             'status' => true,
-            'message' => "objection sent Successfully ."
+            'message' => "Objection sent Successfully ."
         ], 200);
     }
     public function home()
